@@ -1,0 +1,15 @@
+.jumbotron {
+  margin: 0 ,auto;
+  height: 720px ;
+  background-image: url(/home/moringa/Desktop/JavaScript/clothes/images/wizard.jpg);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-color: white:
+
+
+}
+p{
+  background-color: #2C2727;
+  color: white;
+  width:480px ;
+}

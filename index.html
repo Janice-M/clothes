@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Look of the day</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<div class="container">
+  <div class="jumbotron ">
+    <h1> <span class="badge badge-secondary">What are we gonna wear?!</span></h1>
+
+    <p class="color-primary">I am glad I could be of some help. Its javascript, not magic though </p>
+
+
+  </div>
+
+
+</div>
+
+<script type="text/javascript">
+  var  temperature = parseFloat(prompt("What is the temperature dear muggle?"));
+  var sunny = confirm("Is it sunny, dear muggle?");
+
+  if (temperature<=20 && sunny === true){
+    alert("get a light jacket");
+  }
+  else if (temperature<= 20 &&  sunny === false) {
+    alert("get a jacket and carry your umbrella muggle");
+  }
+  else if (temperature >21 && sunny === true) {
+    alert("It's time to get that sexy bare-back top you've been saving muggle ");
+
+  }
+else {
+  alert ("get sexy and cozy, I trust you to figure it out Muggle");
+}
+
+</script>
+  </body>
+</html>
