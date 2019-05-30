@@ -1,7 +1,7 @@
 .jumbotron {
   margin: 0 ,auto;
   height: 720px ;
-  background-image: url(/home/moringa/Desktop/JavaScript/clothes/images/wizard.jpg);
+  background-image: url(https://images.unsplash.com/photo-1515599985634-73dc308d766f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
   background-size: contain;
   background-repeat:no-repeat;
   background-color: white:
